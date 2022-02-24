@@ -1,0 +1,171 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: white;
+}
+
+.constants{
+  padding-left: 0.1vw;
+  padding-right: 0.1vw;
+}
+
+.cnst{
+  display: inline-block;
+  position: relative;
+  height: 8vw;
+  width: 8vw;
+  cursor: move;
+  animation: move1 10s ease infinite;
+}
+
+@keyframes move1 {
+  0%,100% {transform: rotate(0deg);transform-origin: 50% 50%;}
+  10% {transform: rotate(4deg);}
+  20%,40%,60% {transform: rotate(-6deg);}
+  30%,50%,70% {transform: rotate(6deg);}
+  80% {transform: rotate(-4deg);}
+  90% {transform: rotate(4deg);}
+}
+.sm{
+  height: 5vw;
+  width: 5vw;
+}
+.iskra1{
+  background: url('../img/искра г.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.iskra2{
+  background: url('../img/искра ор.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.krug1{
+  background: url('../img/круг г.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.krug2{
+  background: url('../img/круг ж.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.krug3{
+  background: url('../img/круг ор.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.krugi1{
+  background: url('../img/круги г.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.krugi2{
+  background: url('../img/круги ж.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.krugi3{
+  background: url('../img/круги ор.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.poloski1{
+  background: url('../img/полоски г.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.poloski2{
+  background: url('../img/полоски ор.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.pryam{
+  background: url('../img/прям ор.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.skobka1{
+  background: url('../img/скобка ж.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.skobki1{
+  background: url('../img/скобки жг.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.skobki2{
+  background: url('../img/скобки жор.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.skobki3{
+  background: url('../img/скобки ч.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.treugolnik1{
+  background: url('../img/треугольник г.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.treugolnik2{
+  background: url('../img/треугольник ж.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.treugolnik3{
+  background: url('../img/тругольник ч.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.a{
+  background: url('../img/a.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.G{
+  background: url('../img/G.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.k{
+  background: url('../img/k.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.q{
+  background: url('../img/q.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.W{
+  background: url('../img/W.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
