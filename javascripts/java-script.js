@@ -1,9 +1,11 @@
 //write here your js
 $(function() {
-	$(".cnst").draggable();
+	$(".cnst, .move").draggable();
 });
 $(document).ready(function(){
-	$(".cnst").mouseup(function(){
+	$(".cnst, .move").mouseup(function(){
 	$(this).css({ 'animation' : 'move1'})
 	});
 });
+let cnst;
+cnst = ".cnst";

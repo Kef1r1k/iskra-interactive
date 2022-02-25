@@ -4,6 +4,60 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
 }
+.clothes{
+  width: 21vw;
+  height: 30vw;
+}
+.platye{
+  position: relative;
+  left:40%;
+  width: 21vw;
+  height: 30vw;
+  position: absolute;
+  bottom: 100px;
+}
+
+.logo{
+  height:15vw;
+  width: 15vw;
+  position: relative;
+  left:38%;
+}
+.patchwork{
+  width:10vw;
+  height: 6vw;
+  position: absolute;
+  top: 10%;
+  left:20%;
+  z-index: 1;
+  background: url('../img/patchwork.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.generator{
+  width:14vw;
+  height: 6vw;
+  position: absolute;
+  top:28%;
+  left:49%;
+  z-index: 1;
+  background: url('../img/generator.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.plashki{
+  width:25vw;
+  height: 15vw;
+  position: absolute;
+  z-index: 0;
+  background: url('../img/plashki.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 
 .constants{
   padding-left: 0.1vw;
