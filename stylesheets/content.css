@@ -4,15 +4,26 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
 }
-
-.button{
-  width:4vw;
+.interface{
+  width: 20vw;
   height:4vw;
   position: relative;
+  left:40%;
+  top:10px;
+}
+.button{
+  display: inline-block;
+  width:4vw;
+  height:4vw;
 }
 .eraser{
-  left:40%;
   background: url('../img/eraser.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.paint{
+  background: url('../img/paint.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
