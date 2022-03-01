@@ -4,30 +4,45 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
 }
+
+.button{
+  width:4vw;
+  height:4vw;
+  position: relative;
+}
+.eraser{
+  left:40%;
+  background: url('../img/eraser.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.cursor{
+  cursor: url('../img/eraser.svg'), auto;
+}
 .clothes{
-  width: 21vw;
-  height: 30vw;
+  position: relative;
+
 }
 .platye{
   position: relative;
-  left:40%;
+  left:38%;
   width: 21vw;
-  height: 30vw;
-  position: absolute;
-  bottom: 100px;
+  height: 23vw;
 }
 
 .logo{
-  height:15vw;
+  height:12vw;
   width: 15vw;
   position: relative;
   left:38%;
+  top:-20px;
 }
 .patchwork{
   width:10vw;
   height: 6vw;
   position: absolute;
-  top: 10%;
+  top: 16%;
   left:20%;
   z-index: 1;
   background: url('../img/patchwork.svg');
@@ -39,7 +54,7 @@ body {
   width:14vw;
   height: 6vw;
   position: absolute;
-  top:28%;
+  top:40%;
   left:49%;
   z-index: 1;
   background: url('../img/generator.svg');
@@ -69,7 +84,6 @@ body {
   position: relative;
   height: 8vw;
   width: 8vw;
-  cursor: move;
   animation: move1 10s ease infinite;
 }
 
