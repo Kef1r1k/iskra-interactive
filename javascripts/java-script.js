@@ -1,16 +1,8 @@
 //write here your js
-$(function() {
-	$(".cnst, .move").draggable();
-});
-$(document).ready(function(){
-	$(".cnst, .move").mouseup(function(){
-	$(this).css({ 'animation' : 'move1'})
-	});
-});
 
 $(document).ready(function(){
 	$(".eraser").click(function(){
-	$("body").addClass("cursor")
+	$("body").toggleClass("cursor")
 	});
 });
 
@@ -21,8 +13,40 @@ $(document).ready(function(){
 	});
 });
 
+$(function() {
+	$(".cnst, .move").draggable();
+});
+$(document).ready(function(){
+	$(".cnst, .move").mouseup(function(){
+	$(this).css({ 'animation' : 'move1'})
+	});
+});
+
 $(document).ready(function(){
 $('.paint').click(function() {
-  $('.plt').css({'fill':'#FF6100'});
+  if ($('.plt').css({'fill':'white'})) {
+  	$('.plt').css({'fill':'#FF6100'});};
 });
 });
+
+$(document).ready(function(){
+setInterval(function() {
+    	$('.paint').click(function(e){
+      let colors = [
+        "#FF6100",
+        "#5DB6CA",
+        "#FFD101",
+        "#FFFFFF"  ];
+
+let randomItem = colors[Math.floor(Math.random()*colors.length)];
+$('.plt').css({'fill':randomItem});
+});1000
+  });
+	});
+$(function(){
+	$( ".platye" ).droppable({
+	  drop: function() {
+	   alert("yeah");
+	  }
+	});
+	});
