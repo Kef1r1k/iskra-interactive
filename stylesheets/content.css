@@ -41,6 +41,9 @@ body {
   width: 21vw;
   height: 23vw;
 }
+.plt{
+  fill: none;
+}
 
 .logo{
   height:12vw;
