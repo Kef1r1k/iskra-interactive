@@ -44,9 +44,11 @@ $('.plt').css({'fill':randomItem});
   });
 	});
 $(function(){
-	$( ".platye" ).droppable({
+	$( ".clothes" ).droppable({
+		tolerance: "touch",
 	  drop: function() {
 	   alert("yeah");
+	$(this).appendTo(".clothes")
 	  }
 	});
 	});

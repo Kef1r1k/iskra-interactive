@@ -33,12 +33,16 @@ body {
   cursor: url('../img/eraser.svg'), auto;
 }
 .clothes{
-  position: relative;
-
+  overflow: hidden;
+  position: fixed;
+  width: 21vw;
+  height: 23vw;
+  left: calc(50% - 10vw);
 }
 .platye{
-  position: relative;
-  left:38%;
+  position: absolute;
+  overflow: hidden;
+  clip-path: url(#p1);
   width: 21vw;
   height: 23vw;
 }
@@ -49,7 +53,7 @@ body {
   height:12vw;
   width: 15vw;
   position: relative;
-  left:38%;
+  left: calc(50% - 8vw);
   top:-20px;
 }
 .patchwork{
