@@ -22,12 +22,6 @@ $(document).ready(function(){
 	});
 });
 
-$(document).ready(function(){
-$('.paint').click(function() {
-  if ($('.plt').css({'fill':'white'})) {
-  	$('.plt').css({'fill':'#FF6100'});};
-});
-});
 
 $(document).ready(function(){
 setInterval(function() {

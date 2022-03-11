@@ -32,6 +32,10 @@ body {
 .cursor{
   cursor: url('../img/eraser.svg'), auto;
 }
+#clip{
+  width: 21vw;
+  height: 23vw;
+}
 .clothes{
   overflow: hidden;
   position: relative;
@@ -44,12 +48,9 @@ body {
   stroke: black;
   stroke-width: 5pt;
 }
-.platye{
-  position: absolute;
-  overflow: hidden;
+#plt{
   width: 21vw;
   height: 23vw;
-  z-index: 0;
 }
 .logo{
   height:12vw;
