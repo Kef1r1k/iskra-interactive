@@ -39,16 +39,31 @@ setInterval(function() {
         "#FFFFFF"  ];
 
 let randomItem = colors[Math.floor(Math.random()*colors.length)];
-$('.plt').css({'fill':randomItem});
+$('.clothes').css({'background-color':randomItem});
 });1000
   });
 	});
-$(function(){
-	$( ".clothes" ).droppable({
-		tolerance: "touch",
-	  drop: function() {
-	   alert("yeah");
-	$(this).appendTo(".clothes")
-	  }
-	});
-	});
+
+$( function() {
+	var $constants = $( ".constants" ),
+       $clothes = $( ".clothes" );
+
+			 $clothes.droppable({
+			      accept: ".constants > .cnst",
+						classes: {
+			 "ui-droppable-active": "ui-state-highlight"
+		 },
+			      drop: function( event, ui ) {
+			        deleteImage( ui.draggable );
+			      }
+			    });
+				});
+
+		    function deleteImage( $item ) {
+		      $item.fadeOut(function() {
+		        var $list = $( ".iskra1", ".clothes").length ?
+		          $( ".iskra1", ".clothes" ) :
+							$(".iskra1" ).removeAttr("style");
+		          $(".iskra1" ).appendTo( ".clothes");
+		      });
+		    }

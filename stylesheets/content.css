@@ -34,20 +34,22 @@ body {
 }
 .clothes{
   overflow: hidden;
-  position: fixed;
+  position: relative;
+  clip-path: url(#clip);
   width: 21vw;
   height: 23vw;
   left: calc(50% - 10vw);
+  z-index: 0;
+  background-color: red;
+  stroke: black;
+  stroke-width: 5pt;
 }
 .platye{
   position: absolute;
   overflow: hidden;
-  clip-path: url(#p1);
   width: 21vw;
   height: 23vw;
-}
-.plt{
-  fill: white;
+  z-index: 0;
 }
 .logo{
   height:12vw;
@@ -102,6 +104,7 @@ body {
   position: relative;
   height: 8vw;
   width: 8vw;
+  z-index: 1;
   animation: move1 10s ease infinite;
 }
 
