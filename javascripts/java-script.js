@@ -59,5 +59,6 @@ $( function() {
 		          $( ".placed", ".clothes" ) :
 							$(".placed").removeAttr("style");
 		          $(".placed").appendTo( ".clothes");
+							$(".placed").removeAttr("style");
 		      });
 		    }
