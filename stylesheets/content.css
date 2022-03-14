@@ -5,6 +5,9 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
 }
+.placed{
+all: initial;
+}
 .interface{
   width: 20vw;
   height:4vw;

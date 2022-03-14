@@ -44,20 +44,20 @@ $( function() {
 
 			 $clothes.droppable({
 			      accept: ".constants > .cnst",
-						classes: {
-			 "ui-droppable-active": "ui-state-highlight"
-		 },
-			      drop: function( event, ui ) {
+	 drop: function( event, ui ) {
 			        deleteImage( ui.draggable );
 			      }
 			    });
 				});
 
 		    function deleteImage( $item ) {
+					(function($) {
+      $item.addClass("placed")
+     })(jQuery);
 		      $item.fadeOut(function() {
-		        var $list = $( ".constants", ".clothes").length ?
-		          $( ".iskra1", ".clothes" ) :
-							$(".iskra1").removeAttr("style");
-		          $(".iskra1").appendTo( ".clothes");
+		        var $list = $( ".placed", ".clothes").length ?
+		          $( ".placed", ".clothes" ) :
+							$(".placed").removeAttr("style");
+		          $(".placed").appendTo( ".clothes");
 		      });
 		    }
