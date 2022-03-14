@@ -32,26 +32,17 @@ body {
 .cursor{
   cursor: url('../img/eraser.svg'), auto;
 }
-#clip{
-  width: 21vw;
-  height: 23vw;
-}
 .clothes{
   overflow: hidden;
   position: relative;
-  clip-path: url(#clip);
   width: 21vw;
   height: 23vw;
   left: calc(50% - 10vw);
-  z-index: 0;
-  background-color: red;
-  stroke: black;
-  stroke-width: 5pt;
+  background-color: #FF6100;
+  -webkit-clip-path: url(#myClip);
+  clip-path: url(#myClip);
 }
-#plt{
-  width: 21vw;
-  height: 23vw;
-}
+
 .logo{
   height:12vw;
   width: 15vw;
