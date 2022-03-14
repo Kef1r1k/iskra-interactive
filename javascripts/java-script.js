@@ -55,9 +55,8 @@ $( function() {
 
 		    function deleteImage( $item ) {
 		      $item.fadeOut(function() {
-						var piece = $(this).parent(".constants").find(".iskra1");
-		        var $list = $( this, ".clothes").length ?
-					    $( ".iskra1", ".clothes" ) :
+		        var $list = $( ".constants", ".clothes").length ?
+		          $( ".iskra1", ".clothes" ) :
 							$(".iskra1").removeAttr("style");
 		          $(".iskra1").appendTo( ".clothes");
 		      });
