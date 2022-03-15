@@ -5,6 +5,11 @@ $(document).ready(function(){
 	$("body").toggleClass("cursor")
 	});
 });
+$(document).ready(function(){
+	$(".invert").click(function(){
+	$("body").toggleClass("inversia")
+	});
+});
 
 $(document).ready(function(){
 	$(".cnst").click(function(){

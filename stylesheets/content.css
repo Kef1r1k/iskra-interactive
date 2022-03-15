@@ -6,6 +6,10 @@ body {
   background: white;
 }
 
+.inversia{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
 .interface{
   width: 20vw;
   height:4vw;
@@ -26,6 +30,12 @@ body {
 }
 .paint{
   background: url('../img/paint.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.invert{
+  background: url('../img/invert.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
