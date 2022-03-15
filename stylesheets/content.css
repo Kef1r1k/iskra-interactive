@@ -40,6 +40,12 @@ body {
   background-position: center;
   background-size: contain;
 }
+.scissors{
+  background: url('../img/scissors.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 .cursor{
   cursor: url('../img/eraser.svg'), auto;
 }
