@@ -88,12 +88,14 @@ body {
 }
 
 .constants{
+  position: relative;
   padding-left: 0.1vw;
   padding-right: 0.1vw;
 }
 
 .cnst{
   position: absolute;
+  bottom: 100px;
   padding: 10px 10px 10px 10px;
   height: 8vw;
   width: 8vw;
@@ -118,136 +120,182 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 28vw;
+  left: 20%;
 }
 .iskra2{
   background: url('../img/искра ор.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 27vw;
+  left: 88%;
 }
 .krug1{
   background: url('../img/круг г.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 10vw;
+  left: 35%;
 }
 .krug2{
   background: url('../img/круг ж.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 25vw;
+  left:8%;
 }
 .krug3{
   background: url('../img/круг ор.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 5vw;
+  left: 70%;
 }
 .krugi1{
   background: url('../img/круги г.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 13vw;
+  left: 18%;
 }
 .krugi2{
   background: url('../img/круги ж.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 0vw;
+  left: 20%;
 }
 .krugi3{
   background: url('../img/круги ор.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 20vw;
+  left: 70%;
 }
 .poloski1{
   background: url('../img/полоски г.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 6vw;
+  left: 65%;
 }
 .poloski2{
   background: url('../img/полоски ор.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 1vw;
+  left: 25%;
 }
 .pryam{
   background: url('../img/прям ор.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 11vw;
+  left: 5%;
 }
 .skobka1{
   background: url('../img/скобка ж.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 0vw;
+  left: 80%;
 }
 .skobki1{
   background: url('../img/скобки жг.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 27vw;
+  left: 75%;
 }
 .skobki2{
   background: url('../img/скобки жор.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 11vw;
+  left: 24%;
 }
 .skobki3{
   background: url('../img/скобки ч.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 10vw;
+  left: 88%;
 }
 .treugolnik1{
   background: url('../img/треугольник г.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 17vw;
+  left: 80%;
 }
 .treugolnik2{
   background: url('../img/треугольник ж.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 10vw;
+  left: 13%;
 }
 .treugolnik3{
   background: url('../img/тругольник ч.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 0vw;
+  left: 4%;
 }
 .a{
   background: url('../img/a.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 19vw;
+  left: 80%;
 }
 .G{
   background: url('../img/G.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 26vw;
+  left: 3%;
 }
 .k{
   background: url('../img/k.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 12vw;
+  left: 75%;
 }
 .q{
   background: url('../img/q.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 25vw;
+  left: 25%;
 }
 .W{
   background: url('../img/W.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  bottom: 16vw;
+  left: 65%;
 }

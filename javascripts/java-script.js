@@ -9,7 +9,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$(".cnst").click(function(){
 	if($("body").hasClass("cursor")){
-		$(this).hide();}
+		$(this).remove();}
 	});
 });
 
