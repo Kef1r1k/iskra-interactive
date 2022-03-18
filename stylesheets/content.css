@@ -62,15 +62,15 @@ body {
   height: 23vw;
   left: calc(50% - 10vw);
   background-color: #FF6100;
-  -webkit-clip-path: url(#myClip);
-  clip-path: url(#myClip);
+  -webkit-clip-path: url(#platye1);
+  clip-path: url(#platye1);
 }
 
 .logo{
   height:12vw;
   width: 15vw;
   position: relative;
-  left: calc(50% - 8vw);
+  left: calc(50% - 10vw);
   top:-20px;
 }
 .patchwork{
