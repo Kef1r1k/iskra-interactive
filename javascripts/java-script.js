@@ -11,18 +11,26 @@ $(document).ready(function(){
 	});
 });
 $(document).ready(function(){
-	$(".arrow").click(function(){
-		if($(".clothes").css({ 'clip-path' : 'url(#platye1)'})){
-	$(".clothes").css({ 'clip-path' : 'url(#ubka1)'})}
-	});
+$(".arrow").click(function(){
+$(".clothes").removeClass("platye"),
+$(".clothes").addClass("ubka")
+});
 });
 
 $(document).ready(function(){
-	$(".scissors").click(function(){
-   if($(".clothes").css({ 'clip-path' : 'url(#platye1)'})){
-$(".clothes").css({ 'clip-path' : 'url(#platye2)'})}
+		$(".scissors").click(function(){
+			if ($(".clothes").hasClass("platye")) {
+					$(".clothes").toggleClass("platyeob")
+			}
+			else {
+				$(".clothes").toggleClass("ubkaob")
+			}
+	});
 });
-});
+
+
+
+
 
 $(document).ready(function(){
 	$(".cnst").click(function(){

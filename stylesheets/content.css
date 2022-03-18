@@ -62,10 +62,24 @@ body {
   height: 23vw;
   left: calc(50% - 10vw);
   background-color: #FF6100;
+
+}
+.platye{
   -webkit-clip-path: url(#platye1);
   clip-path: url(#platye1);
 }
-
+.platyeob{
+  -webkit-clip-path: url(#platye2);
+  clip-path: url(#platye2);
+}
+.ubka{
+  -webkit-clip-path: url(#ubka1);
+  clip-path: url(#ubka1);
+}
+.ubkaob{
+  -webkit-clip-path: url(#ubka2);
+  clip-path: url(#ubka2);
+}
 .logo{
   height:12vw;
   width: 15vw;
