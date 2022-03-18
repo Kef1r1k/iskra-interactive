@@ -12,8 +12,15 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 $(".arrow").click(function(){
-$(".clothes").removeClass("platye"),
-$(".clothes").addClass("ubka")
+	if ($(".clothes").hasClass("platye")) {
+		$(".clothes").removeClass("platye"),
+		$(".clothes").addClass("ubka")
+	}
+	else {
+		$(".clothes").removeClass("platye"),
+		$(".clothes").removeClass("ubka"),
+		$(".clothes").addClass("jeans")
+	}
 });
 });
 
@@ -22,8 +29,11 @@ $(document).ready(function(){
 			if ($(".clothes").hasClass("platye")) {
 					$(".clothes").toggleClass("platyeob")
 			}
+else if ($(".clothes").hasClass("ubka")) {
+	$(".clothes").toggleClass("ubkaob")
+}
 			else {
-				$(".clothes").toggleClass("ubkaob")
+				$(".clothes").toggleClass("jeansob")
 			}
 	});
 });

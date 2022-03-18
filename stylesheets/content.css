@@ -80,6 +80,14 @@ body {
   -webkit-clip-path: url(#ubka2);
   clip-path: url(#ubka2);
 }
+.jeans{
+  -webkit-clip-path: url(#jeans1);
+  clip-path: url(#jeans1);
+}
+.jeansob{
+  -webkit-clip-path: url(#jeans2);
+  clip-path: url(#jeans2);
+}
 .logo{
   height:12vw;
   width: 15vw;
