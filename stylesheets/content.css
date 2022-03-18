@@ -22,6 +22,12 @@ body {
   width:4vw;
   height:4vw;
 }
+.arrow{
+  background: url('../img/arrow1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 .eraser{
   background: url('../img/eraser.svg');
   background-repeat: no-repeat;
