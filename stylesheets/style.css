@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
 @import "reset.css";/* сбрoc настроек браузера */
 @import "layout.css"; /* макет  */
 @import "content.css"; /* контент / содержимое  */

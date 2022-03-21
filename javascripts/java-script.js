@@ -1,4 +1,17 @@
 //write here your js
+$(window).on("load", function() {
+	$(".overlay").fadeIn(297,	function(){
+		$(".v1").css({'display':'block'})
+		});
+	});
+$(function(){
+	$(".buttonok").click( function(){
+		$(".hello").animate({opacity: 0}, 297, function(){
+			$(this).css({'display':'none'});
+			$(".overlay").fadeOut(297);
+		});
+	  });
+		});
 
 $(function(){
 	$(".eraser").click(function(){
@@ -115,3 +128,15 @@ $( function() {
 							$(".placed").removeAttr("style");
 		      });
 		    }
+
+	$(function(){
+$(".gotovo").click(function(){
+	$(".cnst").css({'animation':'fall 2s ease-out'}),
+	$(".cnst").css({'opacity':'0'}),
+	setTimeout(function(){
+		$(".overlay").fadeIn(297,	function(){
+			$(".hello").css({'display':'block', 'opacity':'1'})
+		});
+},2000);
+});
+});
