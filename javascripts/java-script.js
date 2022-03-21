@@ -135,7 +135,7 @@ $(".gotovo").click(function(){
 	$(".cnst").css({'opacity':'0'}),
 	setTimeout(function(){
 		$(".overlay").fadeIn(297,	function(){
-			$(".hello").css({'display':'block', 'opacity':'1'})
+			$(".v2").css({'display':'block', 'opacity':'1'})
 		});
 },2000);
 });

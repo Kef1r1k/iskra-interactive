@@ -7,8 +7,7 @@ body {
 }
 
 .hello{
-  width: 25vw;
-  height: 13vw;
+
   background-color: white;
   border: black 0.25vw solid;
   border-radius: 1.2vw;
@@ -20,7 +19,15 @@ body {
   align-content: center;
   display: none;
 }
-.thello{
+.v1{
+  width: 25vw;
+  height: 13vw;
+}
+.v2{
+  width: 25vw;
+  height: 8vw;
+}
+.thello, .torder{
   font-size: 16pt;
   align-self: center;
   text-align: center;
