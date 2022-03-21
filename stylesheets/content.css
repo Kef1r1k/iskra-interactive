@@ -1,7 +1,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  cursor: default;
+  cursor: auto;
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
 }
@@ -11,27 +11,69 @@ body {
   filter: invert(100%);
 }
 .interface{
-  width: 20vw;
+  width: 24vw;
   height:4vw;
   position: relative;
-  left:40%;
-  top:10px;
+  left: calc(50% - 11vw);
+  top:5%;
 }
 .button{
   display: inline-block;
-  width:4vw;
-  height:4vw;
+  width:5vw;
+  height:5vw;
+  margin: 1%;
+}
+.button:hover{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 .arrow{
+  width:7vw;
+  height:7vw;
   background: url('../img/arrow1.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  position: absolute;
+  z-index: 2;
+}
+.arrow:hover{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+.right{
+  bottom: 15vw;
+  left: 90%;
+}
+.left{
+  bottom: 15vw;
+  left: -35%;
+  transform: rotate(180deg);
+}
+.gotovo{
+  width: 22vw;
+  height: 3vw;
+  background-color: white;
+  border: black 0.25vw solid;
+  border-radius: 1.2vw;
+  position: relative;
+  top: 25%;
+  text-align: center;
+}
+.t1{
+  font-size: 24pt;
+  align-self: center;
+  position: relative;
+  top: 20%;
+}
+.gotovo:hover{
+  background-color: black;
+  color: white;
 }
 .eraser{
   background: url('../img/eraser.svg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: contain;
 }
 .paint{
@@ -44,7 +86,7 @@ body {
   background: url('../img/invert.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 90%;
 }
 .scissors{
   background: url('../img/scissors.svg');
@@ -53,7 +95,7 @@ body {
   background-size: contain;
 }
 .cursor{
-  cursor: url('../img/eraser.svg'), auto;
+  cursor: url("../img/eraser.svg"), auto !important;
 }
 .clothes{
   overflow: hidden;
@@ -135,6 +177,7 @@ body {
   position: relative;
   padding-left: 0.1vw;
   padding-right: 0.1vw;
+  z-index: 1;
 }
 
 .cnst{

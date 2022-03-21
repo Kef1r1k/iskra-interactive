@@ -1,17 +1,17 @@
 //write here your js
 
-$(document).ready(function(){
+$(function(){
 	$(".eraser").click(function(){
 	$("body").toggleClass("cursor")
 	});
 });
-$(document).ready(function(){
+$(function(){
 	$(".invert").click(function(){
 	$("body").toggleClass("inversia")
 	});
 });
-$(document).ready(function(){
-$(".arrow").click(function(){
+$(function(){
+$(".right").click(function(){
 	if ($(".clothes").hasClass("platye")) {
 		$(".clothes").removeClass("platye"),
 		$(".clothes").addClass("ubka")
@@ -24,7 +24,26 @@ $(".arrow").click(function(){
 });
 });
 
-$(document).ready(function(){
+$(function(){
+$(".left").click(function(){
+	if ($(".clothes").hasClass("platye")) {
+		$(".clothes").removeClass("platye"),
+		$(".clothes").addClass("jeans")
+	}
+	else if ($(".clothes").hasClass("ubka")) {
+		$(".clothes").removeClass("jeans"),
+		$(".clothes").removeClass("ubka"),
+		$(".clothes").addClass("platye")
+	}
+	else{
+		$(".clothes").removeClass("jeans"),
+		$(".clothes").removeClass("platye"),
+		$(".clothes").addClass("ubka")
+	}
+});
+});
+
+$(function(){
 		$(".scissors").click(function(){
 			if ($(".clothes").hasClass("platye")) {
 					$(".clothes").toggleClass("platyeob")
@@ -39,10 +58,7 @@ else if ($(".clothes").hasClass("ubka")) {
 });
 
 
-
-
-
-$(document).ready(function(){
+$(function(){
 	$(".cnst").click(function(){
 	if($("body").hasClass("cursor")){
 		$(this).remove();}
