@@ -28,14 +28,20 @@ body {
   height: 8vw;
 }
 .thello, .torder{
-  font-size: 16pt;
+  font-size: 14pt;
   align-self: center;
   text-align: center;
   width: 20vw;
   font-weight: 400;
   position: relative;
+}
+.thello{
   left: 10%;
-  top: 15%;
+  top: 2vw;
+}
+.torder{
+  top: 1.4vw;
+  left: 10%;
 }
 .buttonok{
   width: 6vw;
@@ -58,8 +64,8 @@ body {
   text-align: left;
   font-weight: 500;
   position: relative;
-  left: 28%;
-  top: 17%
+  left: 1.4vw;
+  top: 0.3vw;
 }
 .overlay{
     position: fixed;
@@ -128,8 +134,8 @@ body {
 .t1{
   font-size: 24pt;
   align-self: center;
-  position: relative;
-  top: 20%;
+  position: relative;;
+  top: 0.3vw;
   font-weight: 500;
 }
 .gotovo:hover{
