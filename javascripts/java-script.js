@@ -106,7 +106,6 @@ $('.clothes').css({'background-color':randomItem});
 
 
 
-
 	$(function(){
 $(".gotovo").click(function(){
 	$(".cnst").css({'animation':'fall 2s ease-out'}),
