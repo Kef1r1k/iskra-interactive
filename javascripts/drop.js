@@ -12,13 +12,19 @@ deleteImage( ui.draggable );
 
 function deleteImage( $item ) {
 (function($) {
-$item.addClass("placed")
+$item.addClass("item");
+$(".item")
 })(jQuery);
 $item.fadeOut(function() {
-var $list = $( ".placed", ".clothes").length ?
-$( ".placed", ".clothes" ) :
-$(".placed").removeAttr("style");
-$(".placed").appendTo( ".clothes");
-$(".placed").removeAttr("style");
+var $list = $( ".item", ".clothes").length ?
+$( ".item", ".clothes" ) :
+$(this).removeAttr("style");
+var left = $(".placed").offset().left;
+var top = $(".placed").offset().top;
+$(this).clone().addClass("placed").appendTo(".clothes");
+$(".placed").removeClass("item");
+$(".placed").css({'left': left, 'top': top})
+
+
 });
 }
