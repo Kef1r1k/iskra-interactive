@@ -16,13 +16,11 @@ $item.addClass("item");
 $(".item")
 })(jQuery);
 $item.fadeOut(function() {
-var $list = $( ".item", ".clothes").length ?
-$( ".item", ".clothes" ) :
+var $list = $( ".item", ".iskra1", ".iskra2", ".krug1", ".krug2", ".krug3", ".krugi1", ".krugi2", ".krugi3", ".poloski", ".poloski2", ".pryam", ".skobka1", ".skobki1", ".skobki2", ".skobki3", ".treugolnik1", ".treugolnik2", ".treugolnik3", ".G", ".k", ".q", ".W", ".clothes").length ?
+$( ".item", ".iskra1", ".iskra2", ".krug1", ".krug2", ".krug3", ".krugi1", ".krugi2", ".krugi3", ".poloski", ".poloski2", ".pryam", ".skobka1", ".skobki1", ".skobki2", ".skobki3", ".treugolnik1", ".treugolnik2", ".treugolnik3", ".G", ".k", ".q", ".W", ".clothes" ) :
 $(this).removeAttr("style");
-$(this).addClass("placed").appendTo(".clothes");
-$(".placed").removeClass("item");
-var left = $(".placed").position().left;
-var top = $(".placed").position().top;
-$(".placed").css({'left': left, 'top': top});
+$(this).appendTo(".clothes");
+$(this).removeClass("item");
+$(this).css({'top': '8vw', 'left':'7vw'});
 });
 }
