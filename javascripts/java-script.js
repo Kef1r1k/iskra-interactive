@@ -18,6 +18,7 @@ $(function(){
 	$("body").toggleClass("cursor")
 	});
 });
+
 $(function(){
 	$(".invert").click(function(){
 	$("body").toggleClass("inversia")
@@ -113,19 +114,32 @@ $(".constants").css({'animation':'fall 1s ease-out'}),
 $(".constants").css({'opacity':'0'}),
 	setTimeout(function(){
 		$(".overlay").fadeIn(297,	function(){
-			$(".v2").css({'display':'block', 'opacity':'1'})
+			$(".v2").css({'display':'block', 'opacity':'1'}),
+			$(".gotovo").remove(),
+			$(".order").css({'display':'block'}),
+			$(".button").css({'display':'none'}),
+			$(".arrow").css({'display':'none'})
 		});
 },1300);
-$(".gotovo").remove(),
-$(".order").css({'display':'block'})
+
 }));
 });
 
 $(function(){
 $(".order").click(function(){
-$(".clothes").css({'animation':'slide 1s ease-out'}),
+$(".clothes").css({'animation':'slideout 1s ease-out'})
+$(".bye").css({'animation':'slidein 1s ease-in'}),
+$(".order").css({'display':'none'}),
+$(".restart").css({'display':'block'})
 setTimeout(function(){
-$(".clothes").css({'opacity':'0'})
+$(".clothes").css({'opacity':'0'}),
+$(".bye").css({'display':'block'})
 },1000);
 });
+});
+
+$(function(){
+	$(".restart").click(function(){
+		history.go(0)
+	});
 });

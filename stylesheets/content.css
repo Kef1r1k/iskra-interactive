@@ -1,9 +1,11 @@
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  cursor: auto;
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
+  height: 100%;
+  cursor: default;
 }
 
 .hello{
@@ -37,10 +39,10 @@ body {
 }
 .thello{
   left: 10%;
-  top: 2vw;
+  top: 13%;
 }
 .torder{
-  top: 1.4vw;
+  top: 13%;
   left: 10%;
 }
 .buttonok{
@@ -64,8 +66,8 @@ body {
   text-align: left;
   font-weight: 500;
   position: relative;
-  left: 1.4vw;
-  top: 0.3vw;
+  left: 23%;
+  top: 13%;
 }
 .overlay{
     position: fixed;
@@ -75,6 +77,30 @@ body {
     top: 0; left: 0;
     z-index: 3;
     display: none;
+}
+.bye{
+  width: 20vw;
+  height: 13vw;
+  background-color: white;
+  border: black 0.25vw solid;
+  border-radius: 1.2vw;
+  position: absolute;
+  top: 40%;
+  left: calc(50% - 10vw);
+  z-index: 4;
+  text-align: center;
+  align-content: center;
+  display: none;
+}
+.tbye{
+  width: 19vw;
+  font-size: 16pt;
+  align-self: center;
+  text-align: center;
+  font-weight: 400;
+  position: relative;
+  left: 3%;
+  top: 18%;
 }
 
 .inversia{
@@ -131,16 +157,24 @@ body {
   top: 25%;
   text-align: center;
 }
-.order{
+.order, .restart{
   width: 22vw;
   height: 3vw;
   background-color: white;
   border: black 0.25vw solid;
   border-radius: 1.2vw;
   position: relative;
-  top: 25%;
+  top: 4vw;
   text-align: center;
   display: none;
+}
+.order:hover{
+  background-color: black;
+  color: white;
+}
+.restart:hover{
+  background-color: black;
+  color: white;
 }
 .t1{
   font-size: 24pt;
@@ -178,7 +212,7 @@ body {
   background-size: contain;
 }
 .cursor{
-  cursor: url("../img/eraser.svg"), auto !important;
+  cursor: url('../img/cursor.png') 8 12, auto !important;
 }
 
 @keyframes fall {
@@ -188,9 +222,13 @@ body {
 80%{opacity: 1;}
 100% {opacity: 0; transform: translateY(30vh);}
 }
-@keyframes slide{
+@keyframes slideout{
   0% {opacity: 1; transform: translateX(0);}
  100% {opacity: 0; transform: translateX(30vw);}
+}
+@keyframes slidein{
+  0% {opacity: 0; transform: translateX(-30vw);}
+ 100% {opacity: 1; transform: translateX(0vw);}
 }
 .clothes{
   overflow: hidden;
