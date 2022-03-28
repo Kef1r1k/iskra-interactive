@@ -21,6 +21,7 @@ $( ".item", ".iskra1", ".iskra2", ".krug1", ".krug2", ".krug3", ".krugi1", ".kru
 $(this).removeAttr("style");
 $(this).appendTo(".clothes");
 $(this).removeClass("item");
-$(this).css({'top': '8vw', 'left':'7vw'});
+$(this).css({'top': '8vw', 'left':'7vw', 'animation':'none'});
+$(this).addClass("placed");
 });
 }

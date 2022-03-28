@@ -104,12 +104,17 @@ $('.clothes').css({'background-color':randomItem});
   });
 	});
 
+if (true) {
 
+}
 
 	$(function(){
 $(".gotovo").click(function(){
-	$(".cnst").css({'animation':'fall 2s ease-out'}),
-	$(".cnst").css({'opacity':'0'}),
+$(".constants").addClass("fall"),
+$(".clothes").addClass("stay"),
+$(".stay").css({'animation':'none'}),
+$(".fall").css({'animation':'fall 2s ease-out'}),
+$(".fall").css({'opacity':'0'}),
 	setTimeout(function(){
 		$(".overlay").fadeIn(297,	function(){
 			$(".v2").css({'display':'block', 'opacity':'1'})
