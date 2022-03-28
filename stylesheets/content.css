@@ -131,11 +131,22 @@ body {
   top: 25%;
   text-align: center;
 }
+.order{
+  width: 22vw;
+  height: 3vw;
+  background-color: white;
+  border: black 0.25vw solid;
+  border-radius: 1.2vw;
+  position: relative;
+  top: 25%;
+  text-align: center;
+  display: none;
+}
 .t1{
   font-size: 24pt;
   align-self: center;
   position: relative;;
-  top: 0.3vw;
+  top: 0.45vw;
   font-weight: 500;
 }
 .gotovo:hover{
@@ -177,6 +188,10 @@ body {
 80%{opacity: 1;}
 100% {opacity: 0; transform: translateY(30vh);}
 }
+@keyframes slide{
+  0% {opacity: 1; transform: translateX(0);}
+ 100% {opacity: 0; transform: translateX(30vw);}
+}
 .clothes{
   overflow: hidden;
   position: relative;
@@ -184,6 +199,7 @@ body {
   height: 23vw;
   left: calc(50% - 10vw);
   background-color: #FF6100;
+  animation: none;
 
 }
 .platye{

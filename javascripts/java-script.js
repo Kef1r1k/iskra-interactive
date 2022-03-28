@@ -104,21 +104,28 @@ $('.clothes').css({'background-color':randomItem});
   });
 	});
 
-if (true) {
 
-}
 
 	$(function(){
-$(".gotovo").click(function(){
-$(".constants").addClass("fall"),
-$(".clothes").addClass("stay"),
-$(".stay").css({'animation':'none'}),
-$(".fall").css({'animation':'fall 2s ease-out'}),
-$(".fall").css({'opacity':'0'}),
+$(".gotovo").one('click', (function(){
+$(".clothes").css({'animation':'none'}),
+$(".constants").css({'animation':'fall 1s ease-out'}),
+$(".constants").css({'opacity':'0'}),
 	setTimeout(function(){
 		$(".overlay").fadeIn(297,	function(){
 			$(".v2").css({'display':'block', 'opacity':'1'})
 		});
-},2000);
+},1300);
+$(".gotovo").remove(),
+$(".order").css({'display':'block'})
+}));
+});
+
+$(function(){
+$(".order").click(function(){
+$(".clothes").css({'animation':'slide 1s ease-out'}),
+setTimeout(function(){
+$(".clothes").css({'opacity':'0'})
+},1000);
 });
 });
