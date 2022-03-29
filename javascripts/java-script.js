@@ -18,7 +18,6 @@ $(function(){
 	$("body").toggleClass("cursor")
 	});
 });
-
 $(function(){
 	$(".invert").click(function(){
 	$("body").toggleClass("inversia")
