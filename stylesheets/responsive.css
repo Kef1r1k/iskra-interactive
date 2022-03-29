@@ -29,8 +29,10 @@
   .footer{top:20vh; height:14vh;}
 }
 
-@media only screen and (min-width: 1224px) and (max-device-width: 1440px) {
-
+@media only screen and (min-width: 1300px) and (max-device-width: 1440px) {
+.t1{font-size: 22pt;}
+.torder{width: 22vw; left: calc(50% - 11vw);}
+.bye{top:30vh;}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
