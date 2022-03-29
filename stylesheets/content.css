@@ -14,7 +14,7 @@ body {
   border: black 0.25vw solid;
   border-radius: 1.2vw;
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: calc(50% - 12.5vw);
   z-index: 4;
   text-align: center;
@@ -44,7 +44,7 @@ body {
   width: 6vw;
   height: 2vw;
   background-color: white;
-  border: black 0.2vw solid;
+  border: black 0.25vw solid;
   border-radius: 0.7vw;
   position: relative;
   top: 4vh;
@@ -79,7 +79,7 @@ body {
   border: black 0.25vw solid;
   border-radius: 1.2vw;
   position: absolute;
-  top: 35vh;
+  top: 37vh;
   left: calc(50% - 10vw);
   z-index: 4;
   text-align: center;
@@ -517,10 +517,11 @@ body {
 
 .footer{
   background-color: #FFD101;
-  width: 99.5vw;
+  width: 100%;
   height: 14vh;
   position: relative;
   top: 14vh;
+  overflow: hidden;
 }
 .tfooter{
   font-size: 16pt;

@@ -1,13 +1,13 @@
 @media only screen and (min-width: 1680px) and (max-device-width: 1920px) {
 .clothes, .interface, .constants{ top:3vh}
-.hello{height:23vh;}
+.v1{height:25vh;}
 .v2{height:18vh;}
-.thello, .torder { font-size: 18pt; top:3vh; }
-.buttonok{top:5vh;}
+.thello, .torder { font-size: 18pt; top:2vh; }
+.buttonok{top:4vh;}
 .tok{font-size:18pt;}
 .bye {height:10vw;}
-.tbye {font-size: 18pt; top: 2vh;}
-.t1{font-size: 26pt;}
+.tbye {font-size: 18pt; top: 3vh;}
+.t1{font-size: 26pt; top: 1vh;}
 .footer{top:16vh; height:12vh;}
 }
 
@@ -16,17 +16,15 @@
   .tbye{font-size:16pt; top: 2.5vh;}
 }
 @media only screen and (min-width: 1440px) and (max-device-width: 1680px) {
-  .clothes, .interface, .constants{ top:6vh}
-  .hello{height:22vh;}
-  .v1{width:27vw;}
-  .v2{height:16vh;}
+  .v1{width:27vw; height:26vh;}
+  .v2{height:18vh;}
   .thello, .torder { font-size: 16pt; top:2vh; width: 25vw; left: calc(50% - 12.5vw);}
   .buttonok{top:4vh;}
   .tok{font-size:16pt;}
   .bye {height:10vw; width:23vw; left: calc(50% - 11.5vw);}
   .tbye {font-size: 16pt; top: 2vh; width: 21vw; left: calc(50% - 10.5vw);}
   .t1{font-size: 24pt;}
-  .footer{top:20vh; height:14vh;}
+  .footer{top:18vh; height:16vh;}
 }
 
 @media only screen and (min-width: 1300px) and (max-device-width: 1440px) {
@@ -48,6 +46,26 @@
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
+.logo{width:20vw; height:20vw; top:0; left: calc(50% - 15vw);}
+.plashki{width:30vw; height: 20vw;}
+.patchwork{width:12vw; height:6vw; top:20%;}
+.generator{ width:16vw; height:6vw; top:37%;}
+.clothes{width:26vw; height:28vw; left: calc(50% - 13vw);}
+.interface{width: 28vw; height: 6vw; left: calc(50% - 14vw);}
+.button{ width:6vw; height:6vw;}
+.arrow{width:9vw; height:9vw;}
+.left, .right{bottom: 17vw;}
+.gotovo{width:26vw; height:4vw;}
+.t1{font-size: 24pt; top:0.3vh;}
+  .tok{font-size:16pt; top:0.4vh;}
+  .buttonok{width: 12vw; height:4vh; left: calc(50% - 6vw);}
+  .torder{width: 22vw; left: calc(50% - 11vw);}
+  .hello{height:27vh; width:34vw; top:32vh; left: calc(50% - 17vw);}
+  .v2{height:17vh;}
+  .thello, .torder { font-size: 16pt; top:2vh; width: 31vw; left: calc(50% - 15.5vw);}
+  .bye{top:30vh; width: 32vw; left: calc(50% - 16vw);}
+  .tbye{top:4vh; font-size: 16pt; width: 30vw; left: calc(50% - 15vw);}
+  .tfooter{font-size: 14pt;}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
