@@ -134,7 +134,36 @@
     .treugolnik1{bottom:10vw; left:75%;}
 }
 
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-device-height: 768px) and (max-device-height: 1200px) {
+  .logo{width:50vw; height:18.5vw; left: calc(50% - 20vw); top: 4vh;}
+  .plashki{width:50vw; height: 20vw;}
+  .patchwork{width:22vw; height:7vw; top:10%; left: 12%;}
+  .generator{ width:30vw; height:9.5vw; top:32%; left:31%;}
+  .clothes{width:47vw; height:49vw; left: calc(50% - 22.5vw); top: 12vh;}
+  .interface{width: 46vw; height: 10vw; left: calc(50% - 23vw); top: 13vh;}
+  .button{ width:10vw; height:10vw;}
+  .arrow{width:14vw; height:9vw;}
+  .left, .right{bottom: 36vw;}
+  .gotovo, .order, .restart{width:36vw; height:6vw; left:5%; border: black 0.5vw solid; top: 3vh;}
+  .t1{font-size: 24pt; top:0.3vh;}
+    .tok{font-size:18pt; top:0.5vh;}
+    .buttonok{width: 16vw; height:4vh; left: calc(50% - 8vw); border: black 0.5vw solid; border-radius: 1vw}
+    .torder{width: 22vw; left: calc(50% - 11vw);}
+    .hello, .bye{height:25vh; width:52vw; top:32vh; left: calc(50% - 26vw); border: black 0.5vw solid; border-radius: 2vw}
+    .bye{height:22vh;}
+    .v2{height:17vh;}
+    .thello, .torder, .tbye { font-size: 18pt; top:2vh; width: 46vw; left: calc(50% - 23vw); line-height: 24px;}
+    .tbye{top:5vh;}
+    .tfooter{font-size: 16pt;}
+    .logohse{width:17vw; height:5.5vh; left:80vw;}
+    .footer{top: 28vh; height:12vh;}
+    .cnst{width: 12vw; height:12vw;}
+    .sm{ height:6vw; width:6vw;}
+    .G{bottom: 55vw; left:7%;} .iskra1{bottom:41vw;} .krugi1{bottom:32vw; left:5%;} .krug1{bottom:0vw; left: 15%;} .W{bottom: 43vw; left:60%;} .poloski1{bottom:-18vw; left:78%;}
+    .treugolnik1{bottom:18vw; left:68%;} .iskra2{left:80%; bottom: 52vw;} .krugi2{bottom:-20vw; left:10%;} .treugolnik3{bottom:-32vw; left: 7%;} .pryam{bottom:-14vw; left:5%;} .poloski2{ bottom:20vw; left:3%;}
+    .q{bottom:28vw; left:16%;} .skobki2{bottom:0vw; left:4%;} .treugolnik2{bottom:13vw; left:18%} .krug2{bottom:42vw; left:13%;} .skobki1{bottom:37vw;} .krugi3{bottom:28vw; left:80%;} .a{bottom:-29vw; left:76%;}
+    .skobki3{bottom:16vw; left:86%;} .skobka1{bottom:0vw;} .k{bottom:10vw; left:70%;} .krug3{bottom:-7vw; left:80%;}
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
 }
