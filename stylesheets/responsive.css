@@ -16,6 +16,17 @@
   .tbye{font-size:16pt; top: 2.5vh;}
 }
 @media only screen and (min-width: 1440px) and (max-device-width: 1680px) {
+  .clothes, .interface, .constants{ top:6vh}
+  .hello{height:22vh;}
+  .v1{width:27vw;}
+  .v2{height:16vh;}
+  .thello, .torder { font-size: 16pt; top:2vh; width: 25vw; left: calc(50% - 12.5vw);}
+  .buttonok{top:4vh;}
+  .tok{font-size:16pt;}
+  .bye {height:10vw; width:23vw; left: calc(50% - 11.5vw);}
+  .tbye {font-size: 16pt; top: 2vh; width: 21vw; left: calc(50% - 10.5vw);}
+  .t1{font-size: 24pt;}
+  .footer{top:20vh; height:14vh;}
 }
 
 @media only screen and (min-width: 1224px) and (max-device-width: 1440px) {
