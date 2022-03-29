@@ -35,6 +35,17 @@
 .bye{top:30vh;}
 }
 
+@media only screen and (min-width: 1200px) and (max-device-width: 1300px) {
+  .t1{font-size: 20pt;}
+  .tok{font-size:14pt;}
+  .torder{width: 22vw; left: calc(50% - 11vw);}
+  .v1{height:27vh; top:22vh;}
+  .v2{height:17vh;}
+  .thello, .torder { font-size: 14pt; top:2vh; width: 23vw; left: calc(50% - 11.5vw);}
+  .bye{top:25vh;}
+  .tbye{top:3vh;}
+  .tfooter{font-size: 14pt;}
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
 }
