@@ -8,7 +8,7 @@
 .bye {height:10vw;}
 .tbye {font-size: 18pt; top: 3vh;}
 .t1{font-size: 26pt; top: 1vh;}
-.footer{top:16vh; height:12vh;}
+.footer{top:18vh; height:12vh;}
 }
 
 @media only screen and (min-width: 1680px) and (max-device-width: 1858px) {
@@ -46,17 +46,17 @@
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
-.logo{width:20vw; height:20vw; top:0; left: calc(50% - 15vw);}
+.logo{width:20vw; height:18.5vw; left: calc(50% - 15vw);}
 .plashki{width:30vw; height: 20vw;}
 .patchwork{width:12vw; height:6vw; top:20%;}
 .generator{ width:16vw; height:6vw; top:37%;}
 .clothes{width:26vw; height:28vw; left: calc(50% - 13vw);}
-.interface{width: 28vw; height: 6vw; left: calc(50% - 14vw);}
+.interface{width: 28vw; height: 6vw; left: calc(50% - 14vw); top: -1vh;}
 .button{ width:6vw; height:6vw;}
 .arrow{width:9vw; height:9vw;}
 .left, .right{bottom: 17vw;}
-.gotovo{width:26vw; height:4vw;}
-.t1{font-size: 24pt; top:0.3vh;}
+.gotovo, .order, .restart{width:26vw; height:4vw;}
+.t1{font-size: 22pt; top:0.3vh;}
   .tok{font-size:16pt; top:0.4vh;}
   .buttonok{width: 12vw; height:4vh; left: calc(50% - 6vw);}
   .torder{width: 22vw; left: calc(50% - 11vw);}
@@ -65,7 +65,12 @@
   .thello, .torder { font-size: 16pt; top:2vh; width: 31vw; left: calc(50% - 15.5vw);}
   .bye{top:30vh; width: 32vw; left: calc(50% - 16vw);}
   .tbye{top:4vh; font-size: 16pt; width: 30vw; left: calc(50% - 15vw);}
-  .tfooter{font-size: 14pt;}
+  .tfooter{font-size: 12pt;}
+  .logohse{width:13vw; height:10vh; left:84vw;}
+  .footer{top: 10vh; height:15vh;}
+
+  .G{bottom: 40vw;} .iskra1{bottom:35vw;} .krugi1{bottom:25vw; left:13%;} .poloski2{bottom:17vw; left:17%;} .krug1{bottom:0vw; left: 15%;} .W{bottom: 32vw; left:60%;} .poloski1{bottom:38vw; left:78%;}
+  .treugolnik1{bottom:10vw; left:75%;}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
