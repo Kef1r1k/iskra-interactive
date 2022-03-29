@@ -1,3 +1,23 @@
+@media only screen and (min-width: 1680px) and (max-device-width: 1920px) {
+.clothes, .interface, .constants{ top:3vh}
+.hello{height:23vh;}
+.v2{height:18vh;}
+.thello, .torder { font-size: 18pt; top:3vh; }
+.buttonok{top:5vh;}
+.tok{font-size:18pt;}
+.bye {height:10vw;}
+.tbye {font-size: 18pt; top: 2vh;}
+.t1{font-size: 26pt;}
+.footer{top:16vh; height:12vh;}
+}
+
+@media only screen and (min-width: 1680px) and (max-device-width: 1858px) {
+  .thello, .torder { font-size: 16pt; top:3.5vh; }
+  .tbye{font-size:16pt; top: 2.5vh;}
+}
+@media only screen and (min-width: 1440px) and (max-device-width: 1680px) {
+}
+
 @media only screen and (min-width: 1224px) and (max-device-width: 1440px) {
 
 }
