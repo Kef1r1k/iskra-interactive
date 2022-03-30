@@ -218,7 +218,7 @@
     .constants{top: -15vh;}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 900px) and (min-device-width: 400px) and (max-device-height: 500px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 900px) and (min-device-height: 400px) and (max-device-height: 500px) {
 
   .logo{width:20vw; height:18.5vw; left: calc(50% - 15vw); top:-7vh;}
   .plashki{width:28vw; height: 19vw;}
