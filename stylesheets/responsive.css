@@ -1,4 +1,26 @@
-@media only screen and (min-width: 1680px) and (max-device-width: 1920px) {
+@media only screen and (min-width: 1921px) and (max-device-width: 2800px) {
+  .clothes, .interface, .constants{ top:3vh}
+  .v1{height:25vh;}
+  .v2{height:18vh;}
+  .thello, .torder { font-size: 24pt; top:3vh; }
+  .buttonok{top:6vh; width:7vw; left: calc(50% - 3.5vw);}
+  .tok{font-size:24pt;}
+  .bye {height:10vw;}
+  .tbye {font-size: 24pt; top: 3vh;}
+  .t1{font-size: 40pt; top: 0.3vh;}
+  .clothes{width:26vw; height:28vw; left: calc(50% - 13vw);}
+  .cnst{width:9vw; height:9vw;}
+  .sm{height: 5vw; width:5vw;}
+  .interface{width: 27vw; height: 6vw; left: calc(50% - 13.5vw); }
+  .button{width:6vw; height:6vw;}
+  .gotovo, .order, .restart{width:26vw; height:3.2vw;}
+  .arrow{ width:8vw; height:8vw; bottom:18vw}
+  .tfooter{font-size: 24pt; line-height: 36px;}
+  .logohse{top: 1vh;}
+  .footer{top:18vh; height:12vh;}
+}
+
+@media only screen and (min-width: 1680px) and (max-device-width: 1921px) {
 .clothes, .interface, .constants{ top:3vh}
 .v1{height:25vh;}
 .v2{height:18vh;}
@@ -218,7 +240,7 @@
     .constants{top: -15vh;}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 900px) and (min-device-height: 400px) and (max-device-height: 500px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 900px) and (min-device-height: 400px) and (max-device-height: 600px) {
 
   .logo{width:20vw; height:18.5vw; left: calc(50% - 15vw); top:-7vh;}
   .plashki{width:28vw; height: 19vw;}
@@ -245,6 +267,3 @@
     .footer{top: 0vh; height:16vh;}
     .constants{top: -3vh;}
 }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-  /* iPhone Portrait */
