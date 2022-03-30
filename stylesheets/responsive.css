@@ -176,6 +176,19 @@
      100% {opacity: 1; transform: translateX(0vw);}
     }
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (max-device-height: 650px) and (orientation: portrait) {
+  .clothes{top: 19.5vh;}
+  .interface{width:68vw; left: calc(50% - 34vw); top: 24vh;}
+  .treugolnik3{bottom:-30vw; left: 5%;} .krugi2{bottom:-33vw; left:10%;} .krug1{bottom:-31vw; left: 43%;} .krug3{bottom:-58vw; left:82%;} .k{bottom:-56vw; left:3%;}
+  .hello, .bye{height:37vh; width:70vw; top:32vh; left: calc(50% - 35vw); border: black 0.8vw solid; border-radius: 2vw}
+  .bye{height:25vh}
+  .v2{height: 20vh;}
+  .tbye{top:2vh;}
+  .t1, .tok{top:0.5vh;}
+  .gotovo, .order, .restart{left:7%;}
+  .right{left:92%;}
+
+}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
   /* iPhone Landscape */
