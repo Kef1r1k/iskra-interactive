@@ -190,8 +190,32 @@
 
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 900px) and (max-device-height: 480px) {
   /* iPhone Landscape */
+  .logo{width:20vw; height:18.5vw; left: calc(50% - 15vw);}
+  .plashki{width:30vw; height: 20vw;}
+  .patchwork{width:12vw; height:6vw; top:20%;}
+  .generator{ width:16vw; height:6vw; top:37%;}
+  .clothes{width:26vw; height:28vw; left: calc(50% - 13vw); top: -8vh;}
+  .interface{width: 28vw; height: 6vw; left: calc(50% - 14vw); top: -11vh;}
+  .button{ width:6vw; height:6vw;}
+  .arrow{width:9vw; height:9vw;}
+  .left, .right{bottom: 17vw;}
+  .gotovo, .order, .restart{width:26vw; height:3.5vw; border: black 0.4vw solid; top:3px;}
+   .order, .restart{top:15px;}
+  .t1{font-size: 14pt; top:0.3vh;}
+    .tok{font-size:16pt; top:0.4vh;}
+    .buttonok{width: 15vw; height:7vh; left: calc(50% - 7.5vw); top:9vh; border: black 0.4vw solid;}
+    .torder{width: 22vw; left: calc(50% - 11vw);}
+    .hello {height:45vh; width:45vw; top:25vh; left: calc(50% - 22.5vw); border: black 0.4vw solid;}
+    .bye{top: 28vh; width:37vw; left: calc(50% - 18.5vw); height:41vh; border: black 0.4vw solid;}
+    .v2{height:32vh;}
+    .thello, .torder { font-size: 12pt; top:4vh; width: 41vw; left: calc(50% - 20.5vw);}
+    .tbye{top:5vh; font-size: 12pt; width: 30vw; left: calc(50% - 15vw);}
+    .tfooter{font-size: 10pt; line-height:13px;}
+    .logohse{width:13vw; height:10vh; left:84vw;}
+    .footer{top: 0vh; height:16vh;}
+    .constants{top: -15vh;}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
