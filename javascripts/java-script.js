@@ -15,16 +15,20 @@ $(function(){
 
 $(function(){
 	$(".eraser").click(function(){
-	$("body").toggleClass("cursor")
+	$("body").addClass("cursor")
 	});
 });
 $(function(){
 	$(".invert").click(function(){
+	$("body").removeClass("cursor")
+	$("body").css({'cursor':'default'})
 	$("body").toggleClass("inversia")
 	});
 });
 $(function(){
 $(".right").click(function(){
+	$("body").removeClass("cursor")
+	$("body").css({'cursor':'default'})
 	if ($(".clothes").hasClass("platye")) {
 		$(".clothes").removeClass("platye"),
 		$(".clothes").addClass("ubka")
@@ -39,6 +43,8 @@ $(".right").click(function(){
 
 $(function(){
 $(".left").click(function(){
+	$("body").removeClass("cursor")
+	$("body").css({'cursor':'default'})
 	if ($(".clothes").hasClass("platye")) {
 		$(".clothes").removeClass("platye"),
 		$(".clothes").addClass("jeans")
@@ -58,6 +64,8 @@ $(".left").click(function(){
 
 $(function(){
 		$(".scissors").click(function(){
+			$("body").removeClass("cursor")
+			$("body").css({'cursor':'default'})
 			if ($(".clothes").hasClass("platye")) {
 					$(".clothes").toggleClass("platyeob")
 			}
@@ -92,6 +100,8 @@ $(document).ready(function(){
 $(document).ready(function(){
 setInterval(function() {
     	$('.paint').click(function(e){
+				$("body").removeClass("cursor")
+				$("body").css({'cursor':'default'})
       let colors = [
         "#FF6100",
         "#5DB6CA",
