@@ -138,6 +138,43 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
+  .logo{width:70vw; height:30vw; left: calc(50% - 35vw); top: 2vh;}
+  .plashki{width:70vw; height: 30vw;}
+  .patchwork{width:28vw; height:8vw; top:14%; left: 12%;}
+  .generator{ width:45vw; height:13vw; top:30%; left:31%;}
+  .clothes{width:60vw; height:66vw; left: calc(50% - 30vw); top: 16vh;}
+  .interface{width: 64vw; height: 14vw; left: calc(50% - 32vw); top: 22vh;}
+  .button{ width:14vw; height:14vw;}
+  .arrow{width:18vw; height:13vw;}
+  .left, .right{bottom: 60vw;}
+  .left{left:-20%;} .right{left: 87%;}
+  .gotovo, .order, .restart{width:56vw; height:9vw; left:3%; border: black 0.8vw solid; top: 1vh; border-radius: 2vw;}
+  .t1{font-size: 20pt; top:0.3vh;}
+    .tok{font-size:14pt; top:0.8vh;}
+    .buttonok{width: 24vw; height:4vh; left: calc(50% - 12vw); border: black 0.8vw solid; border-radius: 2vw}
+    .torder{width: 22vw; left: calc(50% - 11vw);}
+    .hello, .bye{height:25vh; width:70vw; top:32vh; left: calc(50% - 35vw); border: black 0.8vw solid; border-radius: 2vw}
+    .bye{height:22vh;}
+    .v2{height:17vh;}
+    .thello, .torder, .tbye { font-size: 14pt; top:2vh; width: 60vw; left: calc(50% - 30vw); line-height: 18px;}
+    .tbye{top:5vh;}
+    .tfooter{font-size: 12pt; line-height: 18px;}
+    .logohse{width:26vw; height:5.3vh; left:70vw;}
+    .footer{top: 34vh; height:12vh;}
+    .cnst{width: 14vw; height:14vw;}
+    .sm{ height:7vw; width:7vw;}
+    .G{bottom: 60vw; left:17%;} .iskra1{bottom:51vw; left:30%;} .krugi1{bottom:52vw; left:5%;} .krug1{bottom:-32vw; left: 35%;} .W{bottom: 48vw; left:57%;} .poloski1{bottom:-32vw; left:78%;}
+    .treugolnik1{bottom:-10vw; left:77%;} .iskra2{left:80%; bottom: 62vw;} .krugi2{bottom:-40vw; left:10%;} .treugolnik3{bottom:-37vw; left: 7%;} .pryam{bottom:-34vw; left:50%;} .poloski2{ bottom:-10vw; left:3%;}
+    .q{bottom:38vw; left:8%;} .skobki2{bottom:0vw; left:4%;} .treugolnik2{bottom:30vw; left:5%} .krug2{bottom:62vw; left:50%;} .skobki1{bottom:47vw;} .krugi3{bottom:28vw; left:80%;} .a{bottom:-40vw; left:76%;}
+    .skobki3{bottom:70vw; left:66%;} .skobka1{bottom:9vw; left:78%;} .k{bottom:-63vw; left:5%;} .krug3{bottom:-63vw; left:82%;}
+    @keyframes slideout{
+      0% {opacity: 1; transform: translateX(0);}
+     100% {opacity: 0; transform: translateX(15vw);}
+    }
+    @keyframes slidein{
+      0% {opacity: 0; transform: translateX(-15vw);}
+     100% {opacity: 1; transform: translateX(0vw);}
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
