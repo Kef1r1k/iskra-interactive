@@ -114,10 +114,7 @@ body {
   height:5vw;
   margin: 1%;
 }
-.button:hover{
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}
+
 .arrow{
   width:7vw;
   height:7vw;
@@ -129,8 +126,10 @@ body {
   z-index: 2;
 }
 .arrow:hover{
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  background: url('../img/arrow2.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .right{
   bottom: 15vw;
@@ -182,25 +181,49 @@ body {
   color: white;
 }
 .eraser{
-  background: url('../img/eraser.svg');
+  background: url('../img/eraser1.svg');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
 }
+.eraser:hover{
+background: url('../img/eraser2.svg');
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: contain;
+}
 .paint{
-  background: url('../img/paint.svg');
+  background: url('../img/paint1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.paint:hover{
+  background: url('../img/paint2.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .invert{
-  background: url('../img/invert.svg');
+  background: url('../img/inversia1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+.invert:hover{
+  background: url('../img/inversia2.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
 }
 .scissors{
-  background: url('../img/scissors.svg');
+  background: url('../img/cut1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.scissors:hover{
+  background: url('../img/cut2.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
